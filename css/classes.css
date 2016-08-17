@@ -1,0 +1,76 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+figure {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.stack {
+  float: left;
+  height: 230px;
+  width: 210px;
+  box-sizing: border-box;
+  border-bottom: 10px solid black;
+  margin: 10px;
+  position: relative;
+}
+
+.stack:hover {
+  cursor: pointer;
+  border-color: blue;
+}
+
+.game-over:hover {
+  cursor: default;
+  border-color: black;
+}
+
+.clicked {
+  border-color: red;
+}
+
+.stack > li {
+
+}
+
+.disc-1, .disc-2, .disc-3 {
+  background-color: gray;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.disc-1 {
+  width: 70px;
+}
+
+.disc-2 {
+  width: 140px;
+}
+
+.disc-3 {
+  width: 210px;
+}
+
+.end-game {
+  background: green;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 266px;
+}
